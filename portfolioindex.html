@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="side-nav">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main class="content-wrapper">
+
+        <header id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Regine A. Comia</h1>
+                <p class="title">Full-Stack Software Developer</p>
+                <a href="#contact" class="cta-btn">Get In Touch</a>
+            </div>
+        </header>
+
+        <section id="about" class="portfolio-section">
+            <h2>About Me</h2>
+            <p>I am a Full-Stack Software Developer focused on building database-backed applications using Java Spring Boot on the backend and making smooth, mobile-friendly websites with JavaScript on the frontend. I enjoy using tools like Git, Postman, and MySQL to test my code and build reliable software that works great for users.</p>
+        </section>
+
+        <section id="experience" class="portfolio-section">
+            <h2>Work Experience</h2>
+            
+            <div class="job-entry">
+                <h3>Junior Software Engineer</h3>
+                <span class="company-date">TechSolutions Corp | June 2025 - Present</span>
+                <ul>
+                    <li>Developed and optimized RESTful APIs using Java Spring Boot and Maven frameworks.</li>
+                    <li>Integrated relational databases utilizing JPA and Hibernate to ensure reliable data persistence.</li>
+                    <li>Collaborated closely with front-end teams to consume endpoints seamlessly using modern asynchronous JavaScript methods.</li>
+                </ul>
+            </div>
+
+            <div class="job-entry">
+                <h3>Web Development Intern</h3>
+                <span class="company-date">Innovate Web Labs | January 2025 - May 2025</span>
+                <ul>
+                    <li>Designed responsive, interactive layout mockups using semantic HTML5 and mobile-first CSS styling techniques.</li>
+                    <li>Utilized Postman to systematically test and document internal application API endpoints.</li>
+                    <li>Maintained version control integrity across collaborative feature branches using basic Git methodologies.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education" class="portfolio-section">
+            <h2>Education</h2>
+            <div class="education-entry">
+                <h3>Bachelor of Science in Information Technology </h3>
+                <p>College of Science | Expected Graduating 2028</p>
+            </div>
+        </section>
+
+        <section id="skills" class="portfolio-section">
+            <h2>Technical Skills</h2>
+            <ul class="skills-list">
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>Java & Spring Boot</li>
+                <li>Relational Databases (MySQL / PostgreSQL)</li>
+                <li>Git & GitHub</li>
+                <li>API Testing (Postman)</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="portfolio-section">
+            <h2>Contact Me</h2>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Regine A. Comia. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#hero">Back to Top</a>
+            </div>
+        </footer>
+
+    </main>
+
+</body>
+</html>
